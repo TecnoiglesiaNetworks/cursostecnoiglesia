@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Música, Audio y ProPresenter</title>
+	
+	    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif; /* Aplica la fuente Montserrat */
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            margin-left: 20px;
+        }
+
+        .carousel-container {
+            margin: 20px 0;
+        }
+
+        .carousel {
+            display: flex;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            padding: 10px;
+            margin-left: 20px;
+        }
+
+        .carousel::-webkit-scrollbar {
+            display: none; /* Ocultar la barra de desplazamiento */
+        }
+
+        .carousel-item {
+            min-width: 200px;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .carousel-item img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .carousel-item img:hover {
+            transform: scale(1.1);
+        }
+
+        .carousel-item span {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        /* Para la sección ProPresenter se hace más pequeña */
+        .carousel-item-small {
+            min-width: 150px;
+            margin-right: 15px;
+        }
+
+        .carousel-item-small img {
+            width: 150px;
+            height: 225px;
+        }
+
+        .carousel-item-small span {
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Sección de Audio 2 -->
+<div class="carousel-container">
+    <h2>Audio</h2>
+    <div class="carousel">
+        <!-- Primer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347565">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/curso-operacion-m32.jpg" alt="Curso de funcionamiento para X32 y M32">
+            </a>
+        </div>
+
+        <!-- Segundo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347710">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Operador+de+Audio" alt="Cómo Mejorar mi Servicio como Operador de Audio en la Iglesia – Impartido por Abraham Ojeda">
+            </a>
+        </div>
+
+        <!-- Tercer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347711">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Experiencias+Auditivas" alt="Cómo crear experiencias y atmósferas auditivas – Eduardo Silverio">
+            </a>
+        </div>
+
+        <!-- Cuarto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347712">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Flujo+de+Trabajo" alt="Herramientas para Mejorar el Flujo de Trabajo en la Producción de Audio">
+            </a>
+        </div>
+
+        <!-- Quinto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347713">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Sistemas+de+Audio" alt="Sistemas de Audio para Auditorios">
+            </a>
+        </div>
+
+        <!-- Sexto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347714">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Problemas+Inalambricos" alt="Los 5 Problemas Más Comunes con los Sistemas Inalámbricos y Cómo Resolverlos">
+            </a>
+        </div>
+
+        <!-- Séptimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347715">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Regla+de+Oro" alt="La Regla de Oro para Obtener Éxito en mi Carrera">
+            </a>
+        </div>
+
+        <!-- Octavo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347716">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Mezclas+de+Monitores" alt="Mezclas de Monitores para Iglesias">
+            </a>
+        </div>
+
+        <!-- Noveno curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347717">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Arma+Cable" alt="Arma un Cable de Micrófono para tu Iglesia">
+            </a>
+        </div>
+
+        <!-- Décimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347718">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Micrófonos+en+Adoración" alt="La Importancia de los Micrófonos en la Adoración">
+            </a>
+        </div>
+
+        <!-- Cursos adicionales -->
+
+        <!-- Curso 11 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347719">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=5+Pasos+Mejor+Audio" alt="5 Pasos para Elegir el Mejor Audio para tu Iglesia">
+            </a>
+        </div>
+
+        <!-- Curso 12 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347720">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Fundamentos+de+Audio" alt="Aprende los Fundamentos de Audio en Vivo">
+            </a>
+        </div>
+
+        <!-- Curso 13 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347721">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Tipos+de+Micrófono" alt="Usos y Aplicaciones de los Diferentes Tipos de Micrófono">
+            </a>
+        </div>
+
+        <!-- Curso 14 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347722">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Categorías+Sonidos+Sintetizadores" alt="Cómo Identificar las Categorías de Sonidos de Sintetizadores">
+            </a>
+        </div>
+
+        <!-- Curso 15 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347723">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Capturar+Sonido+de+Instrumentos" alt="El Arte de Capturar el Sonido de los Instrumentos">
+            </a>
+        </div>
+
+        <!-- Curso 16 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347724">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Operación+Monitores" alt="Operación de Monitores">
+            </a>
+        </div>
+
+        <!-- Curso 17 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347725">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Soluciones+Streaming+Podcast" alt="Webinar – Soluciones de Audio para Streaming y Podcast Presentado por Shure®">
+            </a>
+        </div>
+
+        <!-- Curso 18 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347726">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Training+de+Microfonía" alt="Training de Microfonía">
+            </a>
+        </div>
+
+        <!-- Curso 19 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347727">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Monitoreo+Personal" alt="Implementando Monitoreo Personal en tu Equipo de Alabanza">
+            </a>
+        </div>
+
+        <!-- Curso 20 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347728">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Transmitir+Buena+Calidad" alt="Cómo Transmitir en Vivo con Buena Calidad de Audio">
+            </a>
+        </div>
+
+        <!-- Curso 21 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347729">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Diseño+de+Sonido" alt="Diseño de Sonido – el Uso de Efectos">
+            </a>
+        </div>
+
+        <!-- Curso 22 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347730">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Tips+Producción+Musical" alt="Tips de Producción Musical">
+            </a>
+        </div>
+
+        <!-- Curso 23 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347731">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Arreglo+Musical" alt="Arreglo Musical">
+            </a>
+        </div>
+
+        <!-- Curso 24 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347732">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Sistemas+Refuerzo+Sonoro" alt="Diseño de Sistemas de Refuerzo Sonoro">
+            </a>
+        </div>
+
+        <!-- Curso 25 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347733">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Radio+Televisión+Hiperactiva" alt="Radio Televisión Hiperactiva">
+            </a>
+        </div>
+
+        <!-- Curso 26 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347734">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Audio+para+Streaming" alt="Audio para Streaming">
+            </a>
+        </div>
+
+        <!-- Curso 27 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347735">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Consideraciones+Streaming" alt="Consideraciones Técnicas de un Streaming">
+            </a>
+        </div>
+
+        <!-- Curso 28 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347736">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Curso+Audio+Practico" alt="Curso de Audio Práctico">
+            </a>
+        </div>
+
+        <!-- Curso 29 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65405172">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/3.jpg" alt="Aprende a Tocar la Guitarra Eléctrica">
+            </a>
+        </div>
+
+        <!-- Curso 30 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65503157">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/4.jpg" alt="Aprende a tocar Bajo para Alabanza">
+            </a>
+        </div>
+
+        <!-- Curso 31 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347739">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Consola+X32+Behringer" alt="Curso de Audio Consola X32 Behringer®">
+            </a>
+        </div>
+
+        <!-- Curso 32 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347740">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Line+Array" alt="Taller de Sistemas Line Array Impartido por Mija Krieg">
+            </a>
+        </div>
+
+        <!-- Curso 33 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347741">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Bateria+Alabanza" alt="Mi batería en función a un excelente tiempo de Alabanza">
+            </a>
+        </div>
+
+        <!-- Curso 34 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347742">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=7+Pasos+Audio+Adecuado" alt="7 Pasos para Tener un Audio Adecuado en tu Iglesia">
+            </a>
+        </div>
+
+        <!-- Curso 35 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65503851">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/5.jpg" alt="Curso de Piano para Alabanza">
+            </a>
+        </div>
+
+        <!-- Curso 36 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347744">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Secuencias+Ableton+Live" alt="Curso para Uso de Secuencias en Ableton Live">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+   <!-- Sección de Música 2 -->
+<div class="carousel-container">
+    <h2>Música</h2>
+    <div class="carousel">
+        <!-- Primer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347590">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Flujo+de+Trabajo" alt="Herramientas para Mejorar el Flujo de Trabajo en la Producción de Audio">
+            </a>
+        </div>
+
+        <!-- Segundo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347591">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Musicos+vs+Ingenieros" alt="Músicos vs Ingenieros">
+            </a>
+        </div>
+
+        <!-- Tercer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347592">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Consejos+Lideres+Alabanza" alt="Consejos para Líderes de Alabanza">
+            </a>
+        </div>
+
+        <!-- Cuarto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347593">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Mejorar+Ensayo" alt="Tips para Mejorar tu Tiempo de Ensayo">
+            </a>
+        </div>
+
+        <!-- Quinto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347594">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Produccion+Musical+Desde+Cero" alt="Producción Musical desde Cero">
+            </a>
+        </div>
+
+        <!-- Sexto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65405172">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/3.jpg" alt="Aprende a Tocar la Guitarra Eléctrica">
+            </a>
+        </div>
+
+        <!-- Séptimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65503157">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/4.jpg" alt="Aprende a tocar Bajo para Alabanza">
+            </a>
+        </div>
+
+        <!-- Octavo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65503851">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/5.jpg" alt="Curso de Piano para Alabanza">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Sección de Iluminación y Escenografía -->
+<div class="carousel-container">
+    <h2>Iluminación y Escenografía</h2>
+    <div class="carousel">
+        <!-- Primer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347598">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Automatizacion+de+Atmosferas" alt="Automatización de Atmósferas">
+            </a>
+        </div>
+
+        <!-- Segundo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347599">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Fundamentos+Diseno+Iluminacion" alt="Fundamentos en el Diseño de la Iluminación">
+            </a>
+        </div>
+
+        <!-- Tercer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347600">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Diseno+Iluminacion+Parte+2" alt="Cómo Diseñar un Concepto de Iluminación y Video para Iglesias (Parte 2)">
+            </a>
+        </div>
+
+        <!-- Cuarto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347601">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Diseno+Iluminacion+Parte+1" alt="Cómo Diseñar un Concepto de Iluminación y Video para Iglesias (Parte 1)">
+            </a>
+        </div>
+    </div>
+</div>
+	
+	<!-- Sección de Creatividad -->
+<div class="carousel-container">
+    <h2>Creatividad</h2>
+    <div class="carousel">
+        <!-- Primer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347602">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Gen+Creativo+Parte+2" alt="Aprende a desarrollar tu Gen Creativo (Parte 2)">
+            </a>
+        </div>
+
+        <!-- Segundo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347603">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Gen+Creativo+Parte+1" alt="Aprende a Desarrollar tu Gen Creativo (Parte 1)">
+            </a>
+        </div>
+
+        <!-- Tercer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347604">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Disenos+Redes+Sociales" alt="Crea Diseños para tus Redes Sociales">
+            </a>
+        </div>
+
+        <!-- Cuarto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347605">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Donativos+En+Linea+Parte+2" alt="Cómo Crear un Sistema para Donativos En Línea Parte 2">
+            </a>
+        </div>
+
+        <!-- Quinto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347606">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Donativos+En+Linea+Parte+1" alt="Cómo Crear un Sistema para Donativos En Línea Parte 1">
+            </a>
+        </div>
+
+        <!-- Sexto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347607">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Identidad+Grafica+Iglesia" alt="Mejora la Identidad Gráfica de tu Iglesia">
+            </a>
+        </div>
+
+        <!-- Séptimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347608">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Creados+para+Crear" alt="Creados para Crear">
+            </a>
+        </div>
+
+        <!-- Octavo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347609">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Estrategia+Digital+Iglesias" alt="La estrategia digital efectiva para iglesias">
+            </a>
+        </div>
+
+        <!-- Noveno curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347610">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Adobe+Photoshop" alt="Introducción a Adobe Photoshop">
+            </a>
+        </div>
+
+        <!-- Décimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347611">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Plataforma+Venta+Online" alt="Crea una Plataforma de Venta Online para tu Iglesia">
+            </a>
+        </div>
+
+        <!-- Curso 11 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347612">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Desafios+Comunicaciones" alt="Los 5 Desafíos de las Comunicaciones Contemporáneas">
+            </a>
+        </div>
+
+        <!-- Curso 12 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347613">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Teoria+del+Color" alt="Teoría del Color, Iluminación Convencional y Móvil">
+            </a>
+        </div>
+
+        <!-- Curso 13 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347614">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=WordPress+Herramienta+Pagina+Web" alt="WordPress la poderosa herramienta para tú página web">
+            </a>
+        </div>
+    </div>
+</div>
+	
+	<!-- Sección de Video y Foto -->
+<div class="carousel-container">
+    <h2>Video y Foto</h2>
+    <div class="carousel">
+        <!-- Primer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347615">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=3+Claves+Fotos+Videos+Profesionales" alt="3 Claves para Hacer Fotos y Videos Profesionales – Billy Perez">
+            </a>
+        </div>
+
+        <!-- Segundo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347616">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Seleccionar+Proyector" alt="Cómo Seleccionar un Proyector">
+            </a>
+        </div>
+
+        <!-- Tercer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347617">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Usos+Set+Virtuales" alt="Usos de Set Virtuales">
+            </a>
+        </div>
+
+        <!-- Cuarto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347618">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Entrevistas+Testimoniales" alt="Cómo Realizar Entrevistas Testimoniales de Impacto">
+            </a>
+        </div>
+
+        <!-- Quinto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347619">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Documentales+Emotivos" alt="Cinco Claves para Producir Documentales Emotivos">
+            </a>
+        </div>
+
+        <!-- Sexto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347620">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Lo+Nuevo+de+ProPresenter" alt="Lo nuevo de ProPresenter">
+            </a>
+        </div>
+
+        <!-- Séptimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347621">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Gestion+Equipo+Produccion" alt="Gestión del Equipo de Producción">
+            </a>
+        </div>
+
+        <!-- Octavo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347622">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=No+Creatividad" alt="No dejes todo a la Creatividad">
+            </a>
+        </div>
+
+        <!-- Noveno curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347623">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Consejos+Fotografias" alt="Consejos para Destacar más tus Fotografías">
+            </a>
+        </div>
+
+        <!-- Décimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347624">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Animaciones+Adobe+After+Effects" alt="Crea Animaciones para tus Videos con Adobe After Effects">
+            </a>
+        </div>
+
+        <!-- Curso 11 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347625">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Soluciones+Streaming+Directo" alt="Soluciones de Streaming en Directo">
+            </a>
+        </div>
+
+        <!-- Curso 12 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347626">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Consideraciones+Tecnicas+Streaming" alt="Consideraciones Técnicas de un Streaming">
+            </a>
+        </div>
+
+        <!-- Curso 13 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347627">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Teoria+del+Color+Iluminacion+Movil" alt="Teoría del Color, Iluminación Convencional y Móvil">
+            </a>
+        </div>
+
+        <!-- Curso 14 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347628">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Fotografia+Profesional" alt="Principios Básicos de Fotografía Profesional">
+            </a>
+        </div>
+
+        <!-- Curso 15 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347629">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Fundamentos+Fotografia+Iglesias" alt="Fundamentos de Fotografía para Iglesias">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Sección de Web y Redes Sociales -->
+<div class="carousel-container">
+    <h2>Web y Redes Sociales</h2>
+    <div class="carousel">
+        <!-- Primer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347630">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Campana+Redes+Sociales" alt="Cómo hacer una campaña en redes sociales exitosa para tu iglesia local en 5 pasos">
+            </a>
+        </div>
+
+        <!-- Segundo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347631">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Iniciar+Podcast" alt="Cómo Iniciar un Podcast">
+            </a>
+        </div>
+
+        <!-- Tercer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347632">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Canal+YouTube" alt="Cómo comenzar un canal de YouTube exitoso">
+            </a>
+        </div>
+
+        <!-- Cuarto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347633">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Redes+Evangelismo" alt="Cómo Utilizar las Redes Sociales como una Herramienta Evangelística">
+            </a>
+        </div>
+
+        <!-- Quinto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347634">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Producir+Contenidos" alt="Cómo Producir Contenidos de Valor">
+            </a>
+        </div>
+
+        <!-- Sexto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347635">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Guia+Redes+Sociales" alt="Guía Práctica de Contenidos para Redes Sociales">
+            </a>
+        </div>
+
+        <!-- Séptimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347636">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Evangelismo+Redes" alt="Evangelismo en Redes">
+            </a>
+        </div>
+
+        <!-- Octavo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347637">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Lenguaje+Atractivo" alt="Lenguaje Atractivo">
+            </a>
+        </div>
+
+        <!-- Noveno curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347638">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Empodera+Imaginacion" alt="Empodera tu Imaginación">
+            </a>
+        </div>
+
+        <!-- Décimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347639">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Identidad+Grafica+Iglesia" alt="Mejora la Identidad Gráfica de tu Iglesia">
+            </a>
+        </div>
+
+        <!-- Curso 11 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347640">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Creados+para+Crear" alt="Creados para Crear">
+            </a>
+        </div>
+
+        <!-- Curso 12 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347641">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Metodo+C3" alt="Método C3 – Creatividad para la Creación de Contenidos">
+            </a>
+        </div>
+
+        <!-- Curso 13 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347642">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Estrategia+Digital" alt="La estrategia digital efectiva para iglesias">
+            </a>
+        </div>
+
+        <!-- Curso 14 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347643">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Adobe+Photoshop" alt="Introducción a Adobe Photoshop">
+            </a>
+        </div>
+
+        <!-- Curso 15 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347644">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Radio+Television+Hiperactiva" alt="Radio Televisión Hiperactiva">
+            </a>
+        </div>
+
+        <!-- Curso 16 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347645">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Venta+Online" alt="Crea una Plataforma de Venta Online para tu Iglesia">
+            </a>
+        </div>
+
+        <!-- Curso 17 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347646">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Desafios+Comunicaciones" alt="Los 5 Desafíos de las Comunicaciones Contemporáneas">
+            </a>
+        </div>
+
+        <!-- Curso 18 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347647">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Teoria+del+Color" alt="Teoría del Color, Iluminación Convencional y Móvil">
+            </a>
+        </div>
+
+        <!-- Curso 19 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347648">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=WordPress+Pagina+Web" alt="WordPress la poderosa herramienta para tú página web">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Sección de Multimedia y Streaming -->
+<div class="carousel-container">
+    <h2>Multimedia y Streaming</h2>
+    <div class="carousel">
+        <!-- Primer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347649">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Iniciar+Podcast" alt="Cómo Iniciar un Podcast">
+            </a>
+        </div>
+
+        <!-- Segundo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347650">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Webinar+ProPresenter+7" alt="Webinar ProPresenter 7">
+            </a>
+        </div>
+
+        <!-- Tercer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347651">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Entrenamiento+ProPresenter+7" alt="Entrenamiento para ProPresenter 7">
+            </a>
+        </div>
+
+        <!-- Cuarto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347652">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Escribir+Teatro" alt="¿Cuál es la técnica para escribir teatro?">
+            </a>
+        </div>
+
+        <!-- Quinto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347653">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Teatro+Parte+1" alt="Hagámosle al Teatro (Parte 1)">
+            </a>
+        </div>
+
+        <!-- Sexto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347654">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Transmisiones+Vivo+Parte+2" alt="6 Formas de Mejorar tus Transmisiones En Vivo (Parte 2)">
+            </a>
+        </div>
+
+        <!-- Séptimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347655">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Transmisiones+Vivo+Parte+1" alt="6 Formas de Mejorar tus Transmisiones en Vivo (Parte 1)">
+            </a>
+        </div>
+
+        <!-- Octavo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347656">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Arma+PC+Streaming" alt="Arma tu PC para Streaming">
+            </a>
+        </div>
+
+        <!-- Noveno curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347657">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/1.jpg" alt="Cómo Realizar Transmisiones En Vivo">
+            </a>
+        </div>
+
+        <!-- Décimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347658">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Soluciones+Streaming+Directo" alt="Soluciones de Streaming en Directo">
+            </a>
+        </div>
+
+        <!-- Curso 11 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347659">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Lenguaje+Atractivo" alt="Lenguaje Atractivo">
+            </a>
+        </div>
+
+        <!-- Curso 12 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347660">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Empodera+Imaginacion" alt="Empodera tu Imaginación">
+            </a>
+        </div>
+
+        <!-- Curso 13 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347661">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Transmitir+Calidad+Audio" alt="Cómo Transmitir en Vivo con Buena Calidad de Audio">
+            </a>
+        </div>
+
+        <!-- Curso 14 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347662">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Diseno+Sonido" alt="Diseño de Sonido – el Uso de Efectos">
+            </a>
+        </div>
+
+        <!-- Curso 15 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347663">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Estrategia+Digital" alt="La estrategia digital efectiva para iglesias">
+            </a>
+        </div>
+
+        <!-- Curso 16 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347664">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Presentacion+Visual+ProPresenter" alt="Presentación Visual con ProPresenter">
+            </a>
+        </div>
+
+        <!-- Curso 17 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347665">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Audio+para+Streaming" alt="Audio para Streaming">
+            </a>
+        </div>
+
+        <!-- Curso 18 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347666">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Desafios+Comunicaciones" alt="Los 5 Desafíos de las Comunicaciones Contemporáneas">
+            </a>
+        </div>
+
+        <!-- Curso 19 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347667">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Consideraciones+Tecnicas+Streaming" alt="Consideraciones Técnicas de un Streaming">
+            </a>
+        </div>
+
+        <!-- Curso 20 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347668">
+                <img src="https://app.tecnoiglesia.com/docs/img-cursos/2.jpg" alt="Curso de Audio Práctico">
+            </a>
+        </div>
+
+        <!-- Curso 21 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347669">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Principios+Fotografia+Profesional" alt="Principios Básicos de Fotografía Profesional">
+            </a>
+        </div>
+
+        <!-- Curso 22 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347670">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Proyeccion+ProPresenter+6" alt="Curso Básico de Proyección con ProPresenter® 6">
+            </a>
+        </div>
+
+        <!-- Curso 23 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347671">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Fundamentos+Fotografia+Iglesias" alt="Fundamentos de Fotografía para Iglesias">
+            </a>
+        </div>
+
+        <!-- Curso 24 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347672">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Proyeccion+Mapping" alt="Proyección de Contenido y Mapping">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Sección de Liderazgo y Ministerio -->
+<div class="carousel-container">
+    <h2>Liderazgo y Ministerio</h2>
+    <div class="carousel">
+        <!-- Primer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347673">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Conferencia+Abraham+Perez" alt="Conferencia de Abraham Pérez – Inspira 2022">
+            </a>
+        </div>
+
+        <!-- Segundo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347674">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Desarrollando+Lideres" alt="Desarrollando Líderes de Alabanza y Equipos Creativos – Misael García">
+            </a>
+        </div>
+
+        <!-- Tercer curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347675">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Lo+mas+Importante+para+Dios" alt="¿Qué es lo más Importante para Dios en tu Ministerio?">
+            </a>
+        </div>
+
+        <!-- Cuarto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347676">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Eventos+Juveniles" alt="Cómo Organizar Eventos Juveniles Relevantes">
+            </a>
+        </div>
+
+        <!-- Quinto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347677">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Claves+para+Crecer" alt="Claves para Crecer y Pastorear tu Equipo de Alabanza">
+            </a>
+        </div>
+
+        <!-- Sexto curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347678">
+                <img src="https://via.placeholder.com/150x100/ff7f7f/333333?text=Direccion+de+Alabanza" alt="Dirección de Alabanza">
+            </a>
+        </div>
+
+        <!-- Séptimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347679">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Staff+de+Produccion" alt="Crea un Staff de Producción y Logística Estratégicos">
+            </a>
+        </div>
+
+        <!-- Octavo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347680">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Creatividad+De+Dios" alt="El Poder de la Creatividad De Dios en ti – Karla Andino">
+            </a>
+        </div>
+
+        <!-- Noveno curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347681">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Ir+una+Milla+Mas+Alla" alt="Ir una Milla Más Allá – Abraham Pérez">
+            </a>
+        </div>
+
+        <!-- Décimo curso del carrusel -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347682">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=El+Marco+Teologico" alt="El Marco Teológico de Crear – José Luis Camacho">
+            </a>
+        </div>
+
+        <!-- Curso 11 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347683">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Poder+de+las+Palabras" alt="El Poder de las Palabras de Afirmación – Ale Abiú">
+            </a>
+        </div>
+
+        <!-- Curso 12 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347684">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=3+Puntos+Importantes" alt="3 Puntos Importantes para Comenzar a Crear – Pedro Abiú">
+            </a>
+        </div>
+
+        <!-- Curso 13 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347685">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Despertando+Genio+Creativo" alt="Despertando el Genio Creativo que hay en ti">
+            </a>
+        </div>
+
+        <!-- Curso 14 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347686">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Alcanzar+Jovenes" alt="Cómo alcanzar Jóvenes en Postpandemia">
+            </a>
+        </div>
+
+        <!-- Curso 15 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347687">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Composicion+Lado+Creativo" alt="Composición: “Activa tu Lado Creativo”">
+            </a>
+        </div>
+
+        <!-- Curso 16 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347688">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Lider+que+gente+sigue" alt="Convirtiéndote en un líder que a la gente le encanta seguir">
+            </a>
+        </div>
+
+        <!-- Curso 17 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347689">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Estudiar+la+Biblia" alt="Métodos y Herramientas de Cómo Estudiar la Biblia">
+            </a>
+        </div>
+
+        <!-- Curso 18 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347690">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Liderar+Nuevas+Generaciones" alt="Consejos para Liderar a las Nuevas Generaciones">
+            </a>
+        </div>
+
+        <!-- Curso 19 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347691">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Motivacion+y+Excelencia" alt="Motivación correcta y excelencia dan resultados">
+            </a>
+        </div>
+
+        <!-- Curso 20 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347692">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Solo+una+Idea" alt="Solo una Idea">
+            </a>
+        </div>
+
+        <!-- Curso 21 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347693">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Iglesia+Presencial+o+En+Linea" alt="¿Iglesia Presencial o Iglesia en Línea?">
+            </a>
+        </div>
+
+        <!-- Curso 22 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347694">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=El+Templo+y+Cuerpo+de+Dios" alt="El Templo y Cuerpo de Dios – Josué Ramírez">
+            </a>
+        </div>
+
+        <!-- Curso 23 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347695">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Evangelio+en+la+Pandemia" alt="Evangelio en la Pandemia – Itiel Arroyo">
+            </a>
+        </div>
+
+        <!-- Curso 24 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347696">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Ir+a+Nuevo+Nivel" alt="Ir a un Nuevo Nivel – Carmen Gloria">
+            </a>
+        </div>
+
+        <!-- Curso 25 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347697">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Ir+Mas+Alla" alt="Ir Más Allá – Pedro y Ale Abiú">
+            </a>
+        </div>
+
+        <!-- Curso 26 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347698">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Unidad+Equipos+de+Servicio" alt="Unidad en el los Equipos de Servicio">
+            </a>
+        </div>
+
+        <!-- Curso 27 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347699">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Estudiar+Palabra+en+Era+Digital" alt="Estudiando la Palabra en la Era Digital">
+            </a>
+        </div>
+
+        <!-- Curso 28 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347700">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Lenguaje+Atractivo" alt="Lenguaje Atractivo">
+            </a>
+        </div>
+
+        <!-- Curso 29 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347701">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Metodo+C3" alt="Método C3 – Creatividad para la Creación de Contenidos">
+            </a>
+        </div>
+
+        <!-- Curso 30 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347702">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Liderazgo+Cambio+Historia" alt="El Liderazgo que Cambio la Historia">
+            </a>
+        </div>
+
+        <!-- Curso 31 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347703">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Conferencia+Jesus+Buscando" alt="Conferencia – Jesús te está buscando">
+            </a>
+        </div>
+
+        <!-- Curso 32 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347704">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Mayordomia+Creatividad" alt="Conferencia – La Mayordomía de la Creatividad">
+            </a>
+        </div>
+
+        <!-- Curso 33 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347705">
+                <img src="https://via.placeholder.com/150x100/7fff7f/333333?text=Mis+Dones+Talentos" alt="Conferencia – Mis Dones y Talentos">
+            </a>
+        </div>
+
+        <!-- Curso 34 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347706">
+                <img src="https://via.placeholder.com/150x100/7f7fff/333333?text=Alcanzar+Nueva+Generacion" alt="Conferencia – Cómo Alcanzar a esta nueva Generación">
+            </a>
+        </div>
+
+        <!-- Curso 35 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347707">
+                <img src="https://via.placeholder.com/150x100/ff7fff/333333?text=Conferencia+Inspiracion" alt="Conferencia – Inspiración">
+            </a>
+        </div>
+
+        <!-- Curso 36 -->
+        <div class="carousel-item carousel-item-small">
+            <a href="tecnoiglesia://#!section=65347708">
+                <img src="https://via.placeholder.com/150x100/ffff7f/333333?text=Conferencia+Cultura+Discipulo" alt="Conferencia – La Cultura de un Discípulo">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
